@@ -1,4 +1,5 @@
 /**
+ * 
  * bearerAuth Policy
  * 
  * Policy for authorizing API requests. The request is authenticated if the 

@@ -1,3 +1,7 @@
+/**
+ * @module
+ * 
+ */
 var fs = require('fs');
 var glob = require('glob');
 var merge = require('merge');

@@ -1,4 +1,5 @@
 /*
+ * @module
  * isAdmin policy 
  */
 module.exports = function isAdmin(req, res, next) {

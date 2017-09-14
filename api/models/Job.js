@@ -1,12 +1,8 @@
 /**
- * Job.js
+ * @module
  *
- * @description :: TODO: You might write a short summary of how this model works and what it represents here.
- * @docs        :: http://sailsjs.org/documentation/concepts/models-and-orm/models
  */
 
-//var deepdiff = require('deep-diff');
-//var deepcopy = require('deepcopy');
 var request = require('request');
 var async = require('async');
 module.exports = {
@@ -19,9 +15,17 @@ module.exports = {
             primaryKey: true
         }
     },
+    /**
+     * first time initialize: set error for any active jobs.
+     * @returns {undefined}
+     */
     initialize: function() {
         // first time initialize: set error for any active jobs.
     },
+    /**
+     * start the job queue
+     * @returns {undefined}
+     */
     start: function() {
         sails.log.info('kue job monitor starting');
         var thisB = this;
@@ -33,6 +37,10 @@ module.exports = {
         //this.syncJobs();
 
     },
+    /**
+     * Monitor job queue
+     * @returns {undefined}
+     */
     monitor: function() {
         var g = sails.config.globals;
         var thisB = this;
