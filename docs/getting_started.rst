@@ -1,5 +1,6 @@
+***************
 Getting Started
-===============
+***************
 
 This document will show you how to get up and running with Read the Docs.
 You will have your docs imported on Read the Docs in 5 minutes,
@@ -9,7 +10,7 @@ If you are already using Sphinx or Markdown for your docs, skip ahead to
 :ref:`import-docs`.
 
 Write Your Docs
----------------
+===============
 
 You have two options for formatting your documentation:
 
@@ -86,7 +87,7 @@ Then in your ``conf.py``:
 .. _connect-account:
 
 Sign Up and Connect an External Account
----------------------------------------
+=======================================
 
 .. TODO Update this with GitLab support later
 
@@ -103,7 +104,7 @@ that allows us to read information about and clone your repositories.
 .. _import-docs:
 
 Import Your Docs
-----------------
+================
 
 To import a repository, visit your dashboard_ and click Import_.
 
