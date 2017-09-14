@@ -13,5 +13,5 @@ Contents
 
    getting_started
    mytest
-   module-api_controllers_AuthController
-   module-api_controllers_DatasetController
+   genapi-rst/module-api_controllers_AuthController
+   genapi-rst/module-api_controllers_DatasetController
