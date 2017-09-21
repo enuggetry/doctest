@@ -8,10 +8,27 @@ Contents
 ========
 
 .. toctree::
-   :maxdepth: 2
-   :caption: API
+   :maxdepth: 1
 
-   getting_started
-   mytest
-   genapi-rst/module-api_controllers_AuthController
-   genapi-rst/module-api_controllers_DatasetController
+   
+   module-root-module
+   rootNameSpace
+   anotherRootNamespace
+   
+README
+======
+
+------------------------
+
+/* eslint require-jsdoc:0 */
+/* eslint no-unused-vars:0 */
+
+/**
+ * @module root-module
+ */
+
+/**
+ * @module child-module
+ * @memberof module:root-module
+ */
+
