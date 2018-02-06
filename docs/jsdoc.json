@@ -13,9 +13,9 @@
     "default": {
       "outputSourceFiles": true
     },
-    "systemName"      : "JBServer",
+    "systemName"      : "DocTest",
     "footer"          : "",
-    "copyright"       : "Copyright © 2014",
+    "copyright"       : "Copyright © 2018",
     "navType"         : "vertical",
     "theme"           : "oblivion",
     "linenums"        : true,
