@@ -233,6 +233,8 @@ Description
 
 REST interaces for TrackController
 
+this is a inline code: :code:`a = b + c` and txt after it.
+
 
 .. _module-controllers_TrackController.get:
 
@@ -243,7 +245,7 @@ Function: ``get``
 enumerate tracks or search track list.
 
 Get all tracks
-:bash:`GET /track/get`
+:code:`GET /track/get`
 
 Get filtered tracks by dataset:
 
@@ -257,7 +259,7 @@ Get filtered tracks by dataset:
     :param object req: enumerate tracks or search track list.
     
     Get all tracks
-    :bash:`GET /track/get`
+    :code:`GET /track/get`
     
     Get filtered tracks by dataset:
     
@@ -267,7 +269,7 @@ Get filtered tracks by dataset:
     :param object res: enumerate tracks or search track list.
     
     Get all tracks
-    :bash:`GET /track/get`
+    :code:`GET /track/get`
     
     Get filtered tracks by dataset:
     
