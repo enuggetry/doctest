@@ -283,8 +283,17 @@ Function: ``add``
 
 This is a description wonderful eggs hatch into lovely swans that lay golden eggs.
 
-This is a *code block* in a function description:
+.. code-block:: node
 
+var x = 1;
+
++---+---+
+| A | B |
++---+---+
+| C | D |
++---+---+
+
+This is a *italics* in a function description:
 ::
 
      {
@@ -322,14 +331,22 @@ This is a *code block* in a function description:
 Function: ``modify``
 ====================
 
+Description of Modify
 
+.. code-block:: node
+
+var x = 1;
 
 .. js:function:: modify(req, res)
 
     
-    :param type req: 
-    :param type res: 
-    :return unresolved: 
+    :param object req: very interesting
+    +---+---+
+    | A | B |
+    +---+---+
+    | C | D |
+    +---+---+
+    :param object res: nothing else follows
     
 .. _module-controllers_TrackController.remove:
 
