@@ -307,17 +307,13 @@ This is a *code block* in a function description:
              wifi: "sparkle",
              swindle: true
          }
-    :param object res: This is a description wonderful eggs hatch into lovely swans that lay golden eggs.
+    :param object res: sizzle
     
-    This is a *code block* in a function description:
-    
+    codeblock 2
     ::
-    
          {
-             var x = 1;
-             function abc(z) {
-                 console.log("z=",z);
-             }
+             apple: "crunch",
+             pear: "green"
          }
     
 .. _module-controllers_TrackController.modify:
