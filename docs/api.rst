@@ -285,7 +285,7 @@ This is a description wonderful eggs hatch into lovely swans that lay golden egg
 
 .. code-block:: node
 
-var x = 1;
+  var x = 1;
 
 +---+---+
 | A | B |
@@ -335,7 +335,7 @@ Description of Modify
 
 .. code-block:: node
 
-var x = 1;
+  var x = 1;
 
 .. js:function:: modify(req, res)
 
