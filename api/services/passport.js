@@ -3,11 +3,10 @@ var path     = require('path')
   , passport = require('passport');
 
 /**
- * Passport Service
  * @module
- * @memberof Services
- * 
  * @description
+ * Passport Service
+ *
  * A painless Passport.js service for your Sails app that is guaranteed to
  * Rock Your Socks™. It takes all the hassle out of setting up Passport.js by
  * encapsulating all the boring stuff in two functions:

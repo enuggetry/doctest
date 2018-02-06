@@ -1,12 +1,15 @@
 /**
+ * @module
+ *
+ * @description 
+ * Simple policy to allow any authenticated user.
+ * Assumes that your login action in one of your controllers sets `req.session.authenticated = true;`
  * 
- * sessionAuth
+ * Ref: `Sails Policies Concepts <http://sailsjs.org/#!/documentation/concepts/Policies>`_
  *
- * @module      :: Policy
- * @description :: Simple policy to allow any authenticated user
- *                 Assumes that your login action in one of your controllers sets `req.session.authenticated = true;`
- * @docs        :: http://sailsjs.org/#!/documentation/concepts/Policies
- *
+ * @param {Object}   req
+ * @param {Object}   res
+ * @param {Function} next
  */
 module.exports = function(req, res, next) {
 

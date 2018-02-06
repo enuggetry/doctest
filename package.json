@@ -7,9 +7,14 @@
     "jsdoc": "^3.5.4",
     "jsdoc-sphinx": "^0.0.6"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "fs-extra": "^5.0.0",
+    "replaceall": "^0.1.6",
+    "shelljs": "^0.8.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gendocs": "node docs/gendocs_run.js"
   },
   "repository": {
     "type": "git",

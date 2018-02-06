@@ -1,5 +1,6 @@
 /**
- * 
+ * @module
+ * @description 
  * bearerAuth Policy
  * 
  * Policy for authorizing API requests. The request is authenticated if the 
@@ -8,9 +9,6 @@
  * Add this policy (in config/policies.js) to controller actions which are not
  * accessed through a session. For example: API request from another client
  *
- * @param {Object}   req
- * @param {Object}   res
- * @param {Function} next
  */
 
 module.exports = function (req, res, next) {

@@ -1,23 +1,24 @@
 /**
  * @module
  * @description
- * REST Interfaces for Dataset
+ * REST interfaces for JobActive
  */
+
 
 module.exports = {
     /**
-     * Read or search datasets
+     * Read job active record
      * 
-     * `GET /dataset/get`
+     * `GET /jobactive/get`
      * 
      * @param {object} req
      * @param {object} res
      */
     get: function(req,res) {
         var params = req.allParams();
-        sails.log("/dataset/get",params);
+        sails.log("/jobactive/get",params);
         if (req.method === 'GET') {
-            Dataset.Get(params,function(err,records) {
+            JobActive.Get(params,function(err,records) {
                 if (err) res.serverError(err);
                 if (records.length===0) return res.notFound();
                 return res.ok(records);
@@ -25,7 +26,6 @@ module.exports = {
         } 
         else 
             return res.forbidden('requires POST');
-    }
+    },
 	
 };
-
