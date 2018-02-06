@@ -281,13 +281,44 @@ Get filtered tracks by dataset:
 Function: ``add``
 =================
 
+This is a description wonderful eggs hatch into lovely swans that lay golden eggs.
 
+This is a *code block* in a function description:
+
+::
+
+     {
+         var x = 1;
+         function abc(z) {
+             console.log("z=",z);
+         }
+     }
 
 .. js:function:: add(req, res)
 
     
-    :param object req: 
-    :param object res: 
+    :param object req: zingle mingle
+    
+    Code block in param description:
+    
+    ::
+    
+         {
+             wifi: "sparkle",
+             swindle: true
+         }
+    :param object res: This is a description wonderful eggs hatch into lovely swans that lay golden eggs.
+    
+    This is a *code block* in a function description:
+    
+    ::
+    
+         {
+             var x = 1;
+             function abc(z) {
+                 console.log("z=",z);
+             }
+         }
     
 .. _module-controllers_TrackController.modify:
 
