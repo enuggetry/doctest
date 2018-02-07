@@ -235,6 +235,8 @@ REST interaces for TrackController
 
 this is a inline code: :code:`a = b + c` and txt after it.
 
+Test *italics* and **bold** and ``monspaced`` text.
+
 
 .. _module-controllers_TrackController.get:
 
@@ -244,38 +246,41 @@ Function: ``get``
 
 enumerate tracks or search track list.
 
-Get all tracks
+Get all tracks:
+
 :code:`GET /track/get`
 
 Get filtered tracks by dataset:
 
-:bash:`GET /track/get?id=1` where id is the dataset id
+:code:`GET /track/get?id=1` where id is the dataset id
 
-:bash:`GET /track/get?pat=sample_data/json/volvox` where path is the dataset path
+:code:`GET /track/get?pat=sample_data/json/volvox`, where path is the dataset path
 
 .. js:function:: get(req, res)
 
     
     :param object req: enumerate tracks or search track list.
     
-    Get all tracks
+    Get all tracks:
+    
     :code:`GET /track/get`
     
     Get filtered tracks by dataset:
     
-    :bash:`GET /track/get?id=1` where id is the dataset id
+    :code:`GET /track/get?id=1` where id is the dataset id
     
-    :bash:`GET /track/get?pat=sample_data/json/volvox` where path is the dataset path
+    :code:`GET /track/get?pat=sample_data/json/volvox`, where path is the dataset path
     :param object res: enumerate tracks or search track list.
     
-    Get all tracks
+    Get all tracks:
+    
     :code:`GET /track/get`
     
     Get filtered tracks by dataset:
     
-    :bash:`GET /track/get?id=1` where id is the dataset id
+    :code:`GET /track/get?id=1` where id is the dataset id
     
-    :bash:`GET /track/get?pat=sample_data/json/volvox` where path is the dataset path
+    :code:`GET /track/get?pat=sample_data/json/volvox`, where path is the dataset path
     
 .. _module-controllers_TrackController.add:
 
