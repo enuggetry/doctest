@@ -291,7 +291,6 @@ Function: ``add``
 This is a description wonderful eggs hatch into lovely swans that lay golden eggs.
 
 .. code-block:: node
-
   var x = 1;
 
 +---+---+
@@ -316,7 +315,6 @@ This is a *italics* in a function description:
     :param object req: zingle mingle
     
     Code block in param description:
-    
     ::
     
          {
@@ -325,7 +323,7 @@ This is a *italics* in a function description:
          }
     :param object res: sizzle
     
-    codeblock 2
+    **codeblock 2:**
     ::
          {
              apple: "crunch",
