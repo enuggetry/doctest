@@ -46,28 +46,8 @@ Get filtered tracks by dataset:
 .. js:function:: get(req, res)
 
     
-    :param object req: enumerate tracks or search track list.
-    
-    Get all tracks:
-    
-    :code:`GET /track/get`
-    
-    Get filtered tracks by dataset:
-    
-    :code:`GET /track/get?id=1` where id is the dataset id
-    
-    :code:`GET /track/get?pat=sample_data/json/volvox`, where path is the dataset path
-    :param object res: enumerate tracks or search track list.
-    
-    Get all tracks:
-    
-    :code:`GET /track/get`
-    
-    Get filtered tracks by dataset:
-    
-    :code:`GET /track/get?id=1` where id is the dataset id
-    
-    :code:`GET /track/get?pat=sample_data/json/volvox`, where path is the dataset path
+    :param object req: punctuary
+    :param object res: postuary
     
 .. _module-TrackController.add:
 
