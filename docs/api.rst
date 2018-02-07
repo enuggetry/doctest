@@ -131,12 +131,19 @@ A fine thing to remove
 A link to remember: `Stack Overflow <http://stackoverflow.com/>`_.
 
 Test hyperlink: SO_.
+
 .. _SO: http://stackoverflow.com/
 
 .. js:function:: remove(req, res)
 
     
     :param object req: fizzle
+    
+    A hyper link in a new tab: |location_link|.
+    
+    .. |location_link| raw:: html
+    
+      <a href="http://geoiptool.com" target="_blank">check your location here</a>
     :param object res: frazzle
     
 
