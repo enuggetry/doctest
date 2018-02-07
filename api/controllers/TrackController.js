@@ -23,9 +23,9 @@ module.exports = {
      * 
      * :code:`GET /track/get?pat=sample_data/json/volvox`, where path is the dataset path
      * 
-     * @param {object} req
+     * @param {object} req - punctuary
      * 
-     * @param {object} res
+     * @param {object} res - postuary
      * 
      */
     get: function(req,res) {
@@ -127,10 +127,24 @@ module.exports = {
         
     },
     /**
+     * A fine thing to remove
      * 
-     * @param {type} req
-     * @param {type} res
-     * @returns {unresolved}
+     * A link to remember: `Stack Overflow <http://stackoverflow.com/>`_.
+     * 
+     * Test hyperlink: SO_.
+     * 
+     * .. _SO: http://stackoverflow.com/
+     * 
+     * @param {object} req - fizzle
+     * 
+     * A hyper link in a new tab: |location_link|.
+     *
+     * .. |location_link| raw:: html
+     *
+     *   <a href="http://geoiptool.com" target="_blank">check your location here</a> 
+     * 
+     * @param {object} res - frazzle
+     * 
      */
     remove: function(req,res) {
         var params = req.allParams();
