@@ -126,14 +126,18 @@ Description of Modify
 Function: ``remove``
 ====================
 
+A fine thing to remove
 
+A link to remember: `Stack Overflow <http://stackoverflow.com/>`_.
+
+Test hyperlink: SO_.
+.. _SO: http://stackoverflow.com/
 
 .. js:function:: remove(req, res)
 
     
-    :param type req: 
-    :param type res: 
-    :return unresolved: 
+    :param object req: fizzle
+    :param object res: frazzle
     
 
 
