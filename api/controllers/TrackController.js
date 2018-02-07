@@ -2,24 +2,31 @@
  * @module
  * @description
  * REST interaces for TrackController
+ * 
+ * this is a inline code: :code:`a = b + c` and txt after it.
+ * 
+ * Test *italics* and **bold** and ``monspaced`` text.
+ * 
  */
 
 module.exports = {
     /**
      * enumerate tracks or search track list.
      * 
-     * Get all tracks
-     * :bash:`GET /track/get`
+     * Get all tracks:
+     * 
+     * :code:`GET /track/get`
      * 
      * Get filtered tracks by dataset:
      * 
-     * :bash:`GET /track/get?id=1` where id is the dataset id
+     * :code:`GET /track/get?id=1` where id is the dataset id
      * 
-     * :bash:`GET /track/get?pat=sample_data/json/volvox` where path is the dataset path
-     * 
+     * :code:`GET /track/get?pat=sample_data/json/volvox`, where path is the dataset path
      * 
      * @param {object} req
+     * 
      * @param {object} res
+     * 
      */
     get: function(req,res) {
         var params = req.allParams();
@@ -35,9 +42,47 @@ module.exports = {
             return res.forbidden('requires POST');
     },
     /**
+     * This is a description wonderful eggs hatch into lovely swans that lay golden eggs.
      * 
-     * @param {object} req
-     * @param {object} res
+     * .. code-block:: node
+     *   var x = 1;
+     * 
+     * +---+---+
+     * | A | B |
+     * +---+---+
+     * | C | D |
+     * +---+---+
+     * 
+     * This is a *italics* in a function description:
+     * ::
+     * 
+     *      {
+     *          var x = 1;
+     *          function abc(z) {
+     *              console.log("z=",z);
+     *          }
+     *      }
+     * 
+     * 
+     * @param {object} req - zingle mingle
+     * 
+     * Code block in param description:
+     * ::
+     * 
+     *      {
+     *          wifi: "sparkle",
+     *          swindle: true
+     *      }
+     * 
+     * @param {object} res - sizzle
+     * 
+     * **codeblock 2:**
+     * ::
+     *      {
+     *          apple: "crunch",
+     *          pear: "green"
+     *      }
+     *      
      */
     add: function(req,res) {
         var params = req.allParams();
@@ -52,10 +97,21 @@ module.exports = {
             return res.forbidden('requires POST');
     },
     /**
+     * Description of Modify
      * 
-     * @param {type} req
-     * @param {type} res
-     * @returns {unresolved}
+     * .. code-block:: node
+     * 
+     *   var x = 1;
+     * 
+     * @param {object} req - very interesting
+     * +---+---+
+     * | A | B |
+     * +---+---+
+     * | C | D |
+     * +---+---+
+     * 
+     * @param {object} res - nothing else follows
+     *
      */
     modify: function(req,res) {
         var params = req.allParams();
